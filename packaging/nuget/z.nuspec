@@ -4,14 +4,12 @@
         <id>Zaliznyak</id>
         <version>0.0.0</version>
         <title>Грамматический словарь А. А. Зализняка, дополненный</title>
-        <description>Этот пакет добавляет в ваш проект грамматический словарь в виде текстового файла zaliznyak.txt, 
-                который автоматически копируется в $(OutDir) вашего проекта при сборке. </description>
+        <description>Этот пакет добавляет в ваш проект грамматический словарь в виде текстового файла zaliznyak.txt. </description>
         <authors>Sergey Slepov</authors>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <projectUrl>https://github.com/morpher-ru/zaliznyak</projectUrl>
     </metadata>
     <files>
-        <file src="..\..\dictionary.txt" target="Build\zaliznyak.txt" />
-        <file src="z.targets" target="Build\Zaliznyak.targets" />
+        <file src="..\..\dictionary.txt" target="content\zaliznyak.txt" />
     </files>
 </package>
