@@ -10,6 +10,6 @@
         <projectUrl>https://github.com/morpher-ru/zaliznyak</projectUrl>
     </metadata>
     <files>
-        <file src="..\..\dictionary.txt" target="content\zaliznyak.txt" />
+        <file src="..\..\dictionary.txt" target="zaliznyak.txt" />
     </files>
 </package>
